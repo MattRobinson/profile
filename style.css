@@ -1,0 +1,94 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  color: darkslategrey;
+  background-color: whitesmoke;
+  font-size: 16px;
+  font-family: arial;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  color: darkslateblue;
+  font-size: 16px;
+  font-family: verdana;
+  line-height: 1.5;
+}
+
+a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px 20px;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+.custom-button {
+  background-color: steelblue;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: blueviolet;
+  color: white;
+}
